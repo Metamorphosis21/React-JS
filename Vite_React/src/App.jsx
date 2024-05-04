@@ -2,7 +2,10 @@
 function App() {
 
   return (
-    <h2>Chai Aur Code - React + Vite</h2>
+    <>
+      <h1>☕</h1>
+      <h2>Chai Aur Code - React + Vite</h2>
+    </>
   )
 }
 
