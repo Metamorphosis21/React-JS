@@ -1,9 +1,9 @@
-import { useState } from "react";
+import {useState} from "react";     // importing useState is neccesary
 
 function Hook() {
 
     // let count = 0;
-    let [Count , setCount] = useState(0);     // ---> hook
+    let [Count , setCount] = useState(0);     // ---> hook - Returns a stateful value, and a function to update it.
 
     const valueUp = () => {
         // console.log(Count);

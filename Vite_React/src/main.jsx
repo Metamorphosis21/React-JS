@@ -1,6 +1,5 @@
 import React from 'react'      // for mobiles
-import {useState} from 'react'      // for hooks
-import ReactDOM from 'react-dom/client'   // for websites
+import ReactDOM from 'react-dom/client'     // for websites
 
 import App1 from './App1.jsx'
 import Comp1 from './myComp1.jsx'
