@@ -15,3 +15,5 @@ React Fibre - The goal of React Fiber is to increase its suitability for areas l
 
 
 Reconciliation - The algorithm React uses to diff one tree with another to determine which parts need to be changed.    
+
+Props - It stands for properties and is used for passing data from one component to another
