@@ -27,8 +27,8 @@ ReactDOM.createRoot(document.getElementById("root")) // ReactDOM - this version 
     <React.StrictMode>
       
       <App1 />
-      <Comp1 />
-      <Hook />
+      {/* <Comp1 />
+      <Hook /> */}
       
     </React.StrictMode>
   );
