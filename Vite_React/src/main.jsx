@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'     // for websites
 import App1 from './App1.jsx'
 import Comp1 from './myComp1.jsx'
 import Hook from './Hook.jsx'
+import P1_bgChanger from './p1_bgChanger.jsx'
 
 // function Check(){
 //   return(
@@ -26,9 +27,10 @@ ReactDOM.createRoot(document.getElementById("root")) // ReactDOM - this version 
   .render(              //  renders HTML to the web page (here makes the App component to be insisde the root div)
     <React.StrictMode>
       
-      <App1 />
-      {/* <Comp1 />
+      {/*<App1 />
+       <Comp1 />
       <Hook /> */}
+      <P1_bgChanger/>
       
     </React.StrictMode>
   );
