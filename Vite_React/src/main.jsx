@@ -1,7 +1,6 @@
 import React from 'react'      // for mobiles
 import ReactDOM from 'react-dom/client'     // for websites
 
-import App from './tempReact.jsx'
 import Comp1 from './myComp1.jsx'
 import Hook from './Hook.jsx'
 import P1_BgChanger from './p1_bgChanger.jsx'

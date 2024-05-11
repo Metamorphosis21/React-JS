@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import './input.css'
 
-function P2_PasswordGenerator(){
+export default function P2_PasswordGenerator(){
 
     let [length , setLength] = useState(8)
     let [number , setNumber] = useState(false)
@@ -68,5 +68,3 @@ function P2_PasswordGenerator(){
         </div>
     )
 }
-
-export default P2_PasswordGenerator
