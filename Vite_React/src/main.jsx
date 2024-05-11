@@ -1,9 +1,9 @@
 import React from 'react'      // for mobiles
 import ReactDOM from 'react-dom/client'     // for websites
 
-import Comp1 from './myComp1.jsx'
-import Hook from './Hook.jsx'
-import P1_BgChanger from './p1_bgChanger.jsx'
+import Comp1 from './Traniee/myComp1.jsx'
+import Hook from './Traniee/Hook.jsx'
+import P1_BgChanger from './P1_BgChanger.jsx'
 import P2_PasswordGenerator from './P2_PasswordGenerator.jsx'
 
 // function Check(){
@@ -27,10 +27,10 @@ ReactDOM.createRoot(document.getElementById("root")) // ReactDOM - this version 
   .render(              //  renders HTML to the web page (here makes the App component to be insisde the root div)
     <React.StrictMode>
       
-       {/*<App />
+      {/*<App />
       <Comp1 />
-      <Hook /> 
-      <P1_BgChanger/>*/}
+      <Hook /> */}
+      <P1_BgChanger/>
       <P2_PasswordGenerator/>
 
       

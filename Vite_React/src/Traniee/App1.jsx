@@ -1,7 +1,7 @@
 
 import './input.css'
 
-import Card from './Components/Card.jsx'
+import Card from '../Components/Card.jsx'
 
 function App1() {
 
