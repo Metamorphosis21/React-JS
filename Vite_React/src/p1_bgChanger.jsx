@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import './input.css'
 
-function P1_bgChanger() {
+function P1_BgChanger() {
     
     const [color, setColor] = useState("gray")
 
@@ -23,4 +23,4 @@ function P1_bgChanger() {
     )
 }
 
-export default P1_bgChanger
+export default P1_BgChanger
