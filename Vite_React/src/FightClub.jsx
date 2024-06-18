@@ -5,6 +5,7 @@ import Comp1 from './Traniee/myComp1.jsx'
 import Hook from './Traniee/Hook.jsx'
 import P1_BgChanger from './P1_BgChanger.jsx'
 import P2_PasswordGenerator from './P2_PasswordGenerator.jsx'
+import P3_CurrencyConverter from './P3_CurrencyConverter.jsx'
 
 // function Check(){
 //   return(
@@ -29,10 +30,10 @@ ReactDOM.createRoot(document.getElementById("root")) // ReactDOM - this version 
       
       {/*<App />
       <Comp1 />
-      <Hook /> */}
+      <Hook /> 
       <P1_BgChanger/>
-      <P2_PasswordGenerator/>
-
+      <P2_PasswordGenerator/>*/}
+      <P3_CurrencyConverter/>
       
     </React.StrictMode>
   );
