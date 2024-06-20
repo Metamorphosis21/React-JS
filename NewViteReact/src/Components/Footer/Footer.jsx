@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link, NavLink} from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -16,7 +17,7 @@ export default function Footer() {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase hover:text-orange-400">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <Link to="/" className="hover:underline">
@@ -31,7 +32,7 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase hover:text-orange-400">Follow us</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
@@ -51,7 +52,7 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase hover:text-orange-400">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <Link to="#" className="hover:underline">
@@ -72,9 +73,10 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        Sila_ILU
                         </a>
-                        . All Rights Reserved.
+                        <br/>
+                        All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
