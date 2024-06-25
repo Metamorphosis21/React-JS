@@ -15,11 +15,14 @@ function Login() {
 
   return (
     <div>
-      <h1>LoginPage</h1>
+      <u className="p-3"><h1>LoginPage</h1></u>
       <input type="text" value={userName} onChange={(e)=>setUsername(e.target.value)} placeholder="Username" />
+      <br />
       <br />
       <input type="text" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Password" />
       <br />
+      <br />
+
       <button onClick={submitHandle}>Submit</button>
     </div>
   );
