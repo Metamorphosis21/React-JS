@@ -1,0 +1,53 @@
+.proHead {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--text-head-color);
+    text-shadow: 0 0 8px var(--text-head-color);
+    font-family: "Syncopate", sans-serif;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.proContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    gap: 60px;
+    padding: 10px;
+
+    a{
+        height: max-content;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        transition: all 200ms linear;
+    }
+
+    a:hover{
+        box-shadow:0 0 10px var(--hover);
+    }
+
+    img{
+        height: 10rem;
+        border-radius: 10px;
+    }
+
+    h3{
+        font-size: 1.2rem;
+        font-weight: 800;
+        font-family: "Syncopate", sans-serif;
+    }
+
+    p{
+        font-size: .8rem;
+        font-family: "Syncopate", sans-serif;
+    }
+}
