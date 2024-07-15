@@ -1,0 +1,17 @@
+.sec03 {
+    height: 20vh;
+}
+
+.element{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.active{
+    color: yellow;
+}
+
+.inactive{
+    color: gray;
+}

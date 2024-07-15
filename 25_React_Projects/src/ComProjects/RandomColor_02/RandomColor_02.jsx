@@ -8,7 +8,7 @@ function RandomColor_02() {
   function createRandomHEXColor() {
     let hex = "#";
     for (let i = 0; i < 6; i++) {
-      hex += Math.floor(Math.random() * 16).toString(16);
+      hex += Math.floor(Math.random() * 10);
     }
     setBgcolor(hex);
   }
@@ -21,10 +21,10 @@ function RandomColor_02() {
 
   return (
     <>
-      <div className="heading">RandomColor_02</div>
+      <div className="heading">RandomColor 02</div>
       <section
-        className="rndColor"
-        style={{ height: "60vh", background: bgColor }}
+        className="sec02"
+        style={{ height: "50vh", background: bgColor }}
       >
         <div className="container">
           <button

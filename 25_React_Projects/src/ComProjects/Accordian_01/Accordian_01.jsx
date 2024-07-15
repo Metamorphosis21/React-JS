@@ -26,7 +26,7 @@ function Accordian_01() {
   console.log(multiselected);
 
   return (
-    <section className="accd">
+    <section className="sec01">
       <div className={styles.heading}>Accordian 01</div>
 
       <div className={styles.wrapper}>
