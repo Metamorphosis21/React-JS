@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-      <Accordian_01/>
-      <RandomColor_02/>
-      <StarRating_03 noOfStars={10}/>
-      <ImageSlider_04 url={"https://picsum.photos/v2/list"} limit={'10'}/>
+      {/* <Accordian_01/> */}
+      {/* <RandomColor_02/> */}
+      {/* <StarRating_03 noOfStars={10}/> */}
+      <ImageSlider_04/>
     </>
   )
 }
