@@ -3,6 +3,8 @@ import { ThemeProvider } from "./Context/ThemeContext"
 import ThemeButton from "./Components/ThemeButton"
 import ThemeCard from "./Components/ThemeCard"
 
+
+// theme Switcher
 export default function P6_ContextAPI_02() {
   const [theme, setTheme] = useState("light")
 
