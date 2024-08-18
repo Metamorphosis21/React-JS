@@ -11,7 +11,7 @@ const initialState = {
 export const todoSlicer = createSlice({
     name : 'CodeZter' ,  
     initialState ,
-    // initialState : {
+    // initialState : {                                 // Can give intialState inside and also outside
     //    todo : [{ id:1 , text:'Hello World'}]
     // }
     
