@@ -2,7 +2,7 @@
 // .jsx file as it overlays over other files
 
 import React from "react"
-import UserContext from "./UserContext"
+import UserContext from "./UserContext._01js"
 import { useState } from "react"
 
 const UserContextProvider = ({children}) => {
