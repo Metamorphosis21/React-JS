@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { ThemeProvider } from "./Context/ThemeContext"
-import ThemeButton from "./Components/ThemeButton"
-import ThemeCard from "./Components/ThemeCard"
+import ThemeButton from "./Components/ThemeButton_06"
+import ThemeCard from "./Components/ThemeCard_06"
 
 
 // theme Switcher
