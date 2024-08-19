@@ -13,8 +13,6 @@ function P7_TodoContext() {
 
   const updateTodo = (id, todo) => {
     setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo )))
-
-    
   }
 
   const deleteTodo = (id) => {
@@ -41,8 +39,6 @@ function P7_TodoContext() {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
   
-
-
 
   return (
     <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>

@@ -5,7 +5,13 @@ import { createContext , useContext} from "react";
 // 'useContext' is a hook that allows you to access the value of a context from within a functional component. It takes a context object as an argument and returns the current value of that context.
 
 export const TodoContext = createContext({
-
+    todo : [
+        {
+            id : 1, 
+            task : "Task 01",
+            completed : false
+        }
+    ]
 })
 
 export const useTodo = () => {
