@@ -20,7 +20,6 @@ function P7_TodoContext() {
   }
 
   const toggleComplete = (id) => {
-    //console.log(id);
     setTodos((prev) => 
     prev.map((prevTodo) => 
       prevTodo.id === id ? { ...prevTodo, 
@@ -39,7 +38,6 @@ function P7_TodoContext() {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
   
-
   return (
     <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
       <div className="bg-[#172842] w-[100vw] h-[100vh] py-8">
@@ -47,7 +45,7 @@ function P7_TodoContext() {
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
-                        <TodoForm />
+                        <TodoForm/>
                     </div>
                     <div className="flex flex-wrap gap-y-3">
                         {/*Loop and Add TodoItem here */}
@@ -55,7 +53,7 @@ function P7_TodoContext() {
                           <div key={todo.id}
                           className='w-full'
                           >
-                            <TodoItem todo={todo} />
+                            <TodoItem todo={todo}/>
                           </div>
                         ))}
                     </div>

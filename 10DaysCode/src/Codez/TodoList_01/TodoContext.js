@@ -9,9 +9,15 @@ export const TodoContext = createContext({
         {
             id : 1, 
             task : "Task 01",
-            completed : false
-        }
-    ]
+            completed : false,
+        },
+        // {},{}, ...
+    ],
+    // functionalites 
+    addTodo : (todo) => {},         // functions only declared , 
+    removeTodo : (id) => {},
+    updateTodo : (id , todo) => {},
+    toggleComplete : (id) => {}
 })
 
 export const useTodo = () => {
@@ -19,5 +25,5 @@ export const useTodo = () => {
 }
 // 'useTodo' is a custom hook that returns the useContext hook of the 'TodoContext' that allows you to access the context value directly
 
-export const TodoProvider = TodoContext.Provider
+export const TodoProviderNew = TodoContext.Provider
 // providing the data of the todoContext through a variable

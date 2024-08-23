@@ -18,7 +18,7 @@ function Index() {
         <img src={themeIcon} alt="" className={styles.themeIcon} />
       </div>
       <div className={styles.leftSec}>
-        <h1 className={styles.proName}>Hendrick Griffith</h1>
+        <h1 className={styles.proName}>Sai Binayak</h1>
         <h2 className={styles.proJob}>FrontEnd Developer</h2>
         <div className={styles.ancLinks}>
           <a href="https://www.linkedin.com" target="_blank">

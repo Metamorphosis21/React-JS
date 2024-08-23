@@ -41,8 +41,8 @@
 .proName{
     font-size: 3rem;
     font-weight: 800;
+    font-family: monospace;
     color: var(--text-head-color);
-    text-shadow: 0 0 10px var(--text-head-color);
 }
 
 .proJob{
@@ -55,7 +55,6 @@
 .proInfo{
     font-size: 1.4rem;
     letter-spacing: 3px;
-    font-weight:;
     max-width: 30ch;
     align-self: center;
     color: var(--text-body-color);
@@ -73,15 +72,13 @@
 }
 
 .button:hover{
-        box-shadow: 0 0 10px var(--btn-hover);
-    }
-
+    box-shadow: 0 0 10px var(--hover);
+}
 
 .rightSec{
     width: 25rem;
     display: flex;
     justify-content: center;
-
 }
 
 .proName,.proJob,.proInfo{
@@ -105,8 +102,4 @@
     justify-content: center;
     gap: 2rem;
     font-size: 30px;
-}
-
-.ancLinks i:hover{
-    box-shadow:0 0 15px var(--hover);
 }

@@ -32,6 +32,7 @@
 .textareaField {
     background-color: var(--background-color);
     width: 20rem;
+    min-height: 50px;
     max-height: 400px;
     margin-bottom: 20px;
     padding: 10px;

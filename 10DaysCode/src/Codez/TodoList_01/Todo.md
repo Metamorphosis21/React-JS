@@ -20,4 +20,7 @@
 
 **Steps to do with code :**
 
-- Create a "Context" folder inside src and make a .js file to import createContext and useContext.
+1. Create a "Context" folder inside src and make a .js file to import createContext and useContext.
+  - Make an object with createContext() and define all the propertires, make a function that returns the object context by useContext(context_variable) , export the context provider through a variable.
+
+2. 

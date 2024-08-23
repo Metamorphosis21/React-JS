@@ -13,14 +13,14 @@
     justify-content: center;
     color: var(--text-body-color);
     flex-wrap: wrap;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     gap: 50px;
     padding: 30px;
     font-family: 'Bona Nova SC';
-    
+    font-style: italic;
+    font-weight: 400;    
 
     img{
-        filter: invert();
         height: 1.5rem;
         border-radius:50% ;
     }
