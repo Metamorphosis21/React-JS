@@ -8,7 +8,7 @@ import sun from "../Image/sun.png";
 // Styling and Light/Dark Theme change
 
 function Index() {
-  const { theme, toggleTheme } = usetheme();
+  const { theme, toggleTheme } = usetheme() ;
 
   const themeIcon = theme === "light" ? sun : moon;
 
