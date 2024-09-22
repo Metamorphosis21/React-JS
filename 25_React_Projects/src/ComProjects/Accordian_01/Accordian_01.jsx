@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/jsx-key */
+import { useState } from "react";
 import styles from "./Styles_01.module.css";
 import { data } from "./Data_01";
 
@@ -58,14 +59,6 @@ function Accordian_01() {
                 : (selected === dataItem.id) && 
                     <div className={styles.content}>{dataItem.answer}</div>
               }
-              {/* {
-              enableMultiSelection
-                ? (multiselected.indexOf(dataItem.id) !== -1) && 
-                    <div className={styles.content}>{dataItem.answer}</div>
-                  
-                : (selected === dataItem.id) && 
-                    <div className={styles.content}>{dataItem.answer}</div>
-              } */}
             </div>
           ))
         ) : (

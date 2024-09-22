@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-      <Accordian_01/>
+      {/* <Accordian_01/>
       <RandomColor_02/>
       <StarRating_03 noOfStars={10}/>
-      <ImageSlider_04/>
+      <ImageSlider_04/> */}
       <LoadMore/>
     </>
   )
