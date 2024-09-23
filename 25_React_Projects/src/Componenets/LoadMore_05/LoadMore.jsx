@@ -18,7 +18,7 @@ function LoadMore() {
       const result = await response.json();
 
       if (result && result.products && result.products.length) {
-        setProduct((prevProd) => [...prevProd,...result.products]);
+        setProduct(() => [...product,...result.products]);
       }
       console.log(result);
       
@@ -59,7 +59,7 @@ function LoadMore() {
       </div>
       <div className="btn">
         <button disabled={disButton} onClick={() => setCount(count + 1)}>Load more</button>
-        {/* <p>Total products:{product.length}</p> */}
+         <p>Total products:{product.length}</p> 
       </div>
       {
         disButton ? <p>You have reached to 100 products</p> : null
