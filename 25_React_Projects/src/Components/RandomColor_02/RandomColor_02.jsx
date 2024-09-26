@@ -26,7 +26,7 @@ function RandomColor_02() {
         className="sec02"
         style={{ height: "50vh", background: bgColor }}
       >
-        <div className="container">
+        <div className="btcontainer">
           <button
             className="hexColor"
             onClick={() => {
@@ -47,7 +47,7 @@ function RandomColor_02() {
             Random color
           </button>
           <button
-            className="RgbColor"
+            className="rgbColor"
             onClick={() => {
               setColortype("rgb");
               createRandomRGBColor();

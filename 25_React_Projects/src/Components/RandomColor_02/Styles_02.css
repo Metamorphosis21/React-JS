@@ -8,13 +8,13 @@
     border-bottom: 1px solid aliceblue;
 }
 
-.container{
+.btcontainer{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-button{
+.hexColor , .randomColor , .rgbColor{
     padding: 10px;
     border-radius: 10px;
     font-size: 14px;

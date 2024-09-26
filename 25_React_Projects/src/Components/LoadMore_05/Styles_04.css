@@ -6,11 +6,17 @@
   border-top: 1px solid aliceblue;
   border-bottom: 1px solid aliceblue;
 }
+.sec04{
+  height: 80vh;
+}
 
 .container{
+  border: 1px solid aliceblue;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 60vh;
+  overflow: auto;
 }
 
 .prod-container {
@@ -30,7 +36,7 @@
 }
 
 .btn{
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }

@@ -1,0 +1,13 @@
+.sec06{
+    height: auto;
+}
+
+.listitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span{
+    cursor: pointer;
+}
