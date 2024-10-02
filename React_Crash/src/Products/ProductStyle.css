@@ -1,11 +1,22 @@
-
-.heading2{
-    font-style: oblique;
-    font-weight: 500;
-    font-size: 18px;
+.ProductListing_Component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-ol,.productItems{
+.heading2{
+    font-style: monospace;
+    font-weight:600;
+    font-size: 18px;
+}
+.order_plist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order_plist .productItems{
     font-family: monospace;
     font-size: 15px;
 }
