@@ -1,5 +1,5 @@
 import "./Styles_20.css";
-import Search from "./Search-Component/Search";
+import Search from "./Component-Search/Search";
 import { useEffect, useState } from "react";
 
 function WeatherApp() {
@@ -44,7 +44,9 @@ function WeatherApp() {
   }
 
   return (
-    <div className="WeatherApp">
+    <section className="sec20">
+        <div className="heading">Weather App 20</div>
+        <div className="WeatherApp">
       <Search
         search={search}
         setSearch={setSearch}
@@ -87,12 +89,14 @@ function WeatherApp() {
             </div>
             <div className="get FeelsLike">
               {
-                <p><i>Feels Like</i>: {weather?.main?.feels_like} , <i>Humidity</i>: {weather?.main?.humidity} , <i>Pressure</i>: {weather?.main?.pressure}</p>
+                <p><i>Feels Like</i>: {weather?.main?.feels_like} , <i>Humidity</i>: {weather?.main?.humidity}% , <i>Pressure</i>: {weather?.main?.pressure}</p>
               }
             </div>
         </div>
       }
     </div>
+
+    </section>
   );
 }
 
