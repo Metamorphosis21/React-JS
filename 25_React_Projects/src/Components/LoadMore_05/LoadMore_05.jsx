@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Styles_04.css";
 
-function LoadMore() {
+function LoadMore_05() {
   const [loading, setLoading] = useState(false);
   const [product, setProduct] = useState([]);
   const [count, setCount] = useState(0);
@@ -68,4 +68,4 @@ function LoadMore() {
   );
 }
 
-export default LoadMore;
+export default LoadMore_05;

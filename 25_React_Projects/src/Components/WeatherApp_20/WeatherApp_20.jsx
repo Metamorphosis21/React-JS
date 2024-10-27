@@ -2,7 +2,7 @@ import "./Styles_20.css";
 import Search from "./Component-Search/Search";
 import { useEffect, useState } from "react";
 
-function WeatherApp() {
+function WeatherApp_20() {
   const [search, setSearch] = useState("");
   const [loader, setLoader] = useState(false);
   const [weather, setWeather] = useState({});
@@ -100,4 +100,4 @@ function WeatherApp() {
   );
 }
 
-export default WeatherApp;
+export default WeatherApp_20;

@@ -1,0 +1,19 @@
+.heading {
+    text-align: center;
+    text-shadow: 0 0 10px aliceblue;
+    margin: 2rem 0;
+    padding: 10px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+  }
+
+  .madal-content , .header , .body , .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body , .footer{
+    padding: 30px;
+  }

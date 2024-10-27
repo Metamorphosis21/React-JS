@@ -2,7 +2,7 @@
 import MenuList from "./MenuList";
 import './Styles_06.css'
 
-function TreeUI({ menus = [] }) {
+function TreeUI_06({ menus = [] }) {
   return (
     <section className="sec06">
       <div className="heading">TreeUI 04</div>
@@ -13,4 +13,4 @@ function TreeUI({ menus = [] }) {
   );
 }
 
-export default TreeUI;
+export default TreeUI_06;
