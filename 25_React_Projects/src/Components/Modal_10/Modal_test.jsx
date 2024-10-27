@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 function Modal_test({id , header , body , footer}) {
   return (
     <section className="sec10">
-      <div className="heading">Modal Pop Up 04</div>
 
       <div id={id || 'Modal'}>
       <div className="modal-content">
